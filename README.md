@@ -1,3 +1,5 @@
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+
 # 🚀 QA Automation Framework
 
 ## 📌 Overview
@@ -50,14 +52,6 @@ Sample Reports:
 ![Extent Report](images/Report.png)
 ![Extent Report](images/Report-2.png)
 
--- 
-
-## ⚙️ Framework Highlights
-- Designed reusable page classes using POM
-- Implemented assertion handling with failure logging
-- Integrated reporting using Extent Reports
-- Structured test execution using TestNG annotations
-
 ---
 
 🚀 Future Enhancements:
@@ -69,3 +63,10 @@ API automation (RestAssured)
 
 👩‍💻 Author
 Aakansha Saxena
+
+--
+## ⚙️ Framework Highlights
+- Designed reusable page classes using POM
+- Implemented assertion handling with failure logging
+- Integrated reporting using Extent Reports
+- Structured test execution using TestNG annotations
