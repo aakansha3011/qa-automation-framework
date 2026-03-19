@@ -47,8 +47,8 @@ test-output/ExtentReport.html
 ---
 Sample Reports:
 
-![Extent Report](images/report.png)
-![Extent Report](images/report-2.png)
+![Extent Report](images/Report.png)
+![Extent Report](images/Report-2.png)
 
 -- 
 
