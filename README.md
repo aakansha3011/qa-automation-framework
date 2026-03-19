@@ -41,6 +41,8 @@ mvn clean test
 
 After execution, open:
 test-output/ExtentReport.html
+---md
+![Report](images/report.png)
 
 📸 Sample Report:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0868a1b5-4c1b-4725-b2b5-db3cbd6d35db" />
