@@ -1,7 +1,7 @@
 # 🚀 QA Automation Framework
 
 ## 📌 Overview
-This project is a Selenium-based automation framework built using Java, TestNG, and Maven. It follows the Page Object Model (POM) design pattern and includes end-to-end test scenarios with Extent Reports for reporting.
+A scalable automation framework built using Selenium WebDriver, Java, TestNG, and Maven. The framework follows the Page Object Model (POM) design pattern and supports end-to-end test automation with reporting using Extent Reports.
 
 ---
 
@@ -18,20 +18,17 @@ This project is a Selenium-based automation framework built using Java, TestNG, 
 - Page Object Model (POM) design pattern
 - Functional testing (login scenarios)
 - Negative testing (invalid login)
-- End-to-end flow (Add to Cart)
-- Assertion handling using TestNG
+- End-to-end testing (Add to Cart flow)
+- Assertion handling with TestNG
 - HTML reporting using Extent Reports
 - Maven-based execution (CI/CD ready)
 
 ---
 
-## 📂 Project Structure
-src/test/java
-├── base → Driver setup
-├── pages → Page classes
-├── tests → Test cases
-└── utils → Utilities & reports
-
+## 📊 Test Scenarios Covered
+- Valid login
+- Invalid login
+- Add product to cart
 
 ---
 
@@ -39,14 +36,30 @@ src/test/java
 ```bash
 mvn clean test
 
-After execution, open:
-test-output/ExtentReport.html
----md
-![Report](images/report.png)
+---
 
-📸 Sample Report:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0868a1b5-4c1b-4725-b2b5-db3cbd6d35db" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/43616ad8-5d3a-432e-bd87-199405154b69" />
+📸 Test Report
+
+Extent Report generated at:
+
+test-output/ExtentReport.html
+
+---
+
+## ⚙️ Framework Highlights
+- Designed reusable page classes using POM
+- Implemented assertion handling with failure logging
+- Integrated reporting using Extent Reports
+- Structured test execution using TestNG annotations
+
+---
+
+🚀 Future Enhancements:
+CI/CD integration (Jenkins)
+Cross-browser testing
+API automation (RestAssured)
+
+---
 
 👩‍💻 Author
 Aakansha Saxena
