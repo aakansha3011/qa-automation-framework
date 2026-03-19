@@ -45,6 +45,12 @@ Extent Report generated at:
 test-output/ExtentReport.html
 
 ---
+Sample Reports:
+
+![Extent Report](images/report.png)
+![Extent Report](images/report-2.png)
+
+-- 
 
 ## ⚙️ Framework Highlights
 - Designed reusable page classes using POM
